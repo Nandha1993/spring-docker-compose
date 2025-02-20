@@ -1,4 +1,4 @@
-FROM openjdk:8
-LABEL authors="nandhakumar"
+FROM openjdk:11
+LABEL authors="nandkum"
 ADD target/users-app.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
