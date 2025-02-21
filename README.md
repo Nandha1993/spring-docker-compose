@@ -20,5 +20,3 @@ See the logs…There are 3️⃣ steps completed.
 To stop all running containers, use this command:
 
 docker-compose down
-
-Then Start users-app spring boot application
